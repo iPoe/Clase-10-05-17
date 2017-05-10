@@ -11,10 +11,10 @@ servicios = [['EMCALI', 72000, 81000, 12, 5],
 def facturasencarecidas(servicios):
     """
     """
-    nuevalista= []
+    nuevalista = []
     for sublista in servicios:
         if(sublista[1] < sublista[2]):
-            nuevaLista.append([sublista[0], sublista[2]-sublista[1]])
+            nuevalista.append([sublista[0], sublista[2]-sublista[1]])
             
     return nuevalista
 
@@ -45,7 +45,9 @@ def Actualizarmatriz(servicios):
 
     return servicios
 
+
 Actualizarmatriz(servicios)
+
     
             
 
